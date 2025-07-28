@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+:root {
+  --main-bg-color: #0d0c0c;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'Varela Round','sans-serif';
+}
+nav{
+    display: flex;
+}
+.log{
+    display: flex;
+    align-items:center ;
+
+}
+.log img{
+    width: 100px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a{
+    color: rgb(49, 47, 47);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(25, 48, 220);
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 23px;
+    border-radius:2px ;
+    margin: 0 16px 0 56px;
+    padding:0 20px ;
+}
+.search button{
+    font-family: 'Varela Round','sans-serif';
+    font-weight: 600;
+
+}
+.slider{
+    width: 80vw;
+    margin: 1em 16em;
+    overflow: hidden;
+}
+.card{
+   max-width: 70vw;
+    margin: 37px auto;
+     font-family: 'Varela Round','sans-serif';
+}
+.cards{
+   display: flex; 
+   justify-content: center;
+   overflow: hidden;
+}
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+     font-family: 'Varela Round','sans-serif';
+}
+.container{
+    min-height:734px ;
+}
+
+footer{
+    height:12vh ;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Varela Round','sans-serif';
+}
